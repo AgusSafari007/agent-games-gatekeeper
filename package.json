@@ -1,0 +1,14 @@
+{
+  "name": "safari-1-gatekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAFARI-1 — Proof Gatekeeper agent for zkVerify Agent Games Season 01",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/run-tests.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "snarkjs": "^0.7.6" }
+}
